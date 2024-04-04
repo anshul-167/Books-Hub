@@ -1,0 +1,115 @@
+.bookshelves-details-main-cont {
+  background: #f5f7fa;
+}
+
+.bookshelves-details-cont {
+  border-radius: 16px;
+  background: #fff;
+  margin: 20px;
+  padding: 3%;
+}
+
+.centering-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bookshelves-cover-cont {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 40px;
+}
+
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5%;
+}
+
+.bookshelves-cover-pic {
+  width: 100px;
+  height: 150px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.bookshelves-title {
+  color: var(--Light-blue-gray-700, #334155);
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.bookshelves-details-author-name {
+  color: var(--Light-blue-gray-600, #475569);
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.bookshelves-details-rating-cont {
+  display: flex;
+  align-items: center;
+}
+
+.bookshelves-details-avg-rating {
+  color: var(--Light-blue-gray-600, #475569);
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  margin-right: 7%;
+}
+
+.bookshelves-details-icon-cont {
+  display: flex;
+  align-items: center;
+}
+
+.bookshelves-details-star {
+  color: #fbbf24;
+  margin-right: 5px;
+}
+
+.bookshelves-details-rating {
+  color: var(--Light-blue-gray-700, #334155);
+  font-family: 'HK Grotesk';
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+}
+
+.bookshelves-details-status {
+  color: var(--Light-blue-gray-600, #475569);
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 15px;
+}
+
+.bookshelves-details-status-2 {
+  color: #0284c7;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 15px;
+}
+
+.Link {
+  text-decoration: none;
+  width: 300px;
+  padding: 0px;
+}

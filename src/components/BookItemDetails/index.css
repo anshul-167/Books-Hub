@@ -1,0 +1,277 @@
+.book-details-main-cont {
+  background: #f5f7fa;
+}
+
+.book-details-cont {
+  border-radius: 16px;
+  background: #fff;
+  margin: 5%;
+  padding: 3%;
+}
+
+.centering-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.book-details-cover-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5%;
+}
+
+.book-cover-pic {
+  width: 15vw;
+  margin-right: 3%;
+  border-radius: 15px;
+}
+
+.book-title {
+  color: var(--Light-blue-gray-700, #334155);
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  font-family: Inter;
+
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+}
+
+.book-details-author-name {
+  color: var(--Light-blue-gray-600, #475569);
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.book-details-rating-cont {
+  display: flex;
+  align-items: center;
+}
+
+.book-details-avg-rating {
+  color: var(--Light-blue-gray-600, #475569);
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  margin-right: 7%;
+}
+
+.book-details-icon-cont {
+  display: flex;
+  align-items: center;
+}
+
+.book-details-star {
+  color: #fbbf24;
+  margin-right: 5px;
+}
+
+.book-details-rating {
+  color: var(--Light-blue-gray-700, #334155);
+  font-family: 'HK Grotesk';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.book-details-status {
+  color: var(--Light-blue-gray-600, #475569);
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.book-details-status-2 {
+  color: #0284c7;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.book-details-sub-head {
+  color: var(--Light-blue-gray-700, #334155);
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.book-details-sub-para {
+  color: var(--Light-blue-gray-600, #475569);
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+hr {
+  background: #94a3b8;
+  height: 1px;
+}
+
+@media screen and (max-width: 600px) {
+  .book-details-main-cont {
+    background: #f5f7fa;
+  }
+
+  .book-details-cont {
+    border-radius: 16px;
+    background: transparent;
+    margin: 5%;
+    padding: 3%;
+  }
+
+  .centering-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .book-details-cover-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+    flex-direction: column;
+  }
+
+  .loader-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5%;
+  }
+
+  .book-cover-pic {
+    width: 50vw;
+    margin-right: 3%;
+    border-radius: 15px;
+  }
+
+  .book-title {
+    color: var(--Light-blue-gray-700, #334155);
+    font-feature-settings:
+      'clig' off,
+      'liga' off;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+  }
+
+  .book-details-author-name {
+    color: var(--Light-blue-gray-600, #475569);
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+  }
+
+  .book-details-rating-cont {
+    display: flex;
+    align-items: center;
+  }
+
+  .book-details-avg-rating {
+    color: var(--Light-blue-gray-600, #475569);
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    margin-right: 7%;
+  }
+
+  .book-details-icon-cont {
+    display: flex;
+    align-items: center;
+  }
+
+  .book-details-star {
+    color: #fbbf24;
+    margin-right: 5px;
+  }
+
+  .book-details-rating {
+    color: var(--Light-blue-gray-700, #334155);
+    font-family: 'HK Grotesk';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  .book-details-status {
+    color: var(--Light-blue-gray-600, #475569);
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+  }
+
+  .book-details-status-2 {
+    color: #0284c7;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+  }
+
+  .book-details-sub-head {
+    color: var(--Light-blue-gray-700, #334155);
+    font-feature-settings:
+      'clig' off,
+      'liga' off;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+  }
+
+  .book-details-sub-para {
+    color: var(--Light-blue-gray-600, #475569);
+    font-feature-settings:
+      'clig' off,
+      'liga' off;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+  }
+
+  hr {
+    background: #94a3b8;
+    height: 1px;
+  }
+}

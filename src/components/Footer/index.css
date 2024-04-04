@@ -1,0 +1,26 @@
+.footer-main-cont {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #F5F7FA;
+}
+
+.footer-icon-cont {
+  display: flex;
+}
+
+.footer-icon {
+  color: #3d3c3c;
+  margin: 5px;
+}
+
+.footer-contact-us {
+  color: #3d3c3c;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}

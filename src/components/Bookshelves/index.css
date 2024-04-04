@@ -1,0 +1,228 @@
+.bookshelves-tabs-cont {
+  padding: 3%;
+  height: 100vh;
+  flex-shrink: 0;
+  background: #fff;
+  margin: 5%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.bookshelves-tabs-head {
+  color: var(--Light-blue-gray-700, #334155);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.bookshelves-tabs-list-cont {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.bookshelves-tabs-list-item {
+  margin: 10px;
+}
+
+.bookshelves-tabs-button-active {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #0284c7;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+
+.bookshelves-tabs-button-inactive {
+  color: var(--Light-blue-gray-600, #475569);
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-feature-settings:
+    'clig' off,
+    'liga' off;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.bookshelves-main-cont {
+  background: #f5f7fa;
+  margin: 5%;
+  width: 75vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bookshelves-cont {
+  background: #f5f7fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bookshelves-top-cont {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.bookshelves-input-cont {
+  display: inline-flex;
+  height: 36px;
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+  border: solid 1px #cbd5e1;
+  background-color: #fff;
+  outline: none;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.bookshelves-input-cont-small {
+  display: none;
+}
+.bookshelves-input {
+  height: 36px;
+  border: none;
+  outline: none;
+  cursor: text;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 0px;
+  color: #94a3b8;
+  border-right: solid 1px #cbd5e1;
+  width: 250px;
+}
+
+.bookshelves-search-button {
+  border: none;
+  outline: none;
+  color: #94a3b8;
+  cursor: pointer;
+  background-color: #fff;
+  height: 36px;
+  width: 50px;
+}
+
+.bookshelves-books-cont {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  margin-left: 0px;
+  overflow-y: auto;
+  height: 90vh;
+}
+
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5%;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .bookshelves-books-cont {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .bookshelves-main-cont {
+    background: #f5f7fa;
+    margin: 5%;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+  }
+
+  .bookshelves-top-cont {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .bookshelves-cont {
+    flex-direction: column;
+  }
+
+  .bookshelves-tabs-cont {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: auto;
+    background-color: transparent;
+  }
+
+  .bookshelves-tabs-cont-small-screens {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bookshelves-tabs-list-cont {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bookshelves-tabs-button-active {
+    border: solid 1px #0284c7;
+    border-radius: 10px;
+    background-color: #0284c7;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px;
+  }
+
+  .bookshelves-tabs-button-inactive {
+    border: solid 1px #0284c7;
+    border-radius: 10px;
+    color: #0284c7;
+    padding: 10px;
+    font-weight: 500;
+  }
+  .bookshelves-input-cont {
+    display: none;
+  }
+  .bookshelves-input-cont-small {
+    display: inline-flex;
+    height: 36px;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+    border: solid 1px #cbd5e1;
+    background-color: #fff;
+    outline: none;
+    width: 300px;
+    border-radius: 5px;
+    margin-top: 35px;
+  }
+}
