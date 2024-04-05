@@ -101,7 +101,12 @@ const Header = props => {
         <li>{ShelfButton()}</li>
         <li>{LogoutButton()}</li>
       </ul>
-      <button type="button" onClick={HamburgerMenu} className="hamburger-menu">
+      <button
+        type="button"
+        onClick={HamburgerMenu}
+        className="hamburger-menu"
+        aria-label="Search Books"
+      >
         <GiHamburgerMenu />
       </button>
     </nav>

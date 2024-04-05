@@ -139,7 +139,7 @@ class Bookshelves extends Component {
               type="button"
               className="bookshelves-search-button"
               onClick={this.onClickSearchButton}
-              testid="searchButton"
+              aria-label="Search Books"
             >
               <BsSearch />
             </button>
@@ -187,7 +187,7 @@ class Bookshelves extends Component {
   )
 
   renderLoader = () => (
-    <div className="loader-container" testid="loader">
+    <div className="loader-container">
       <Loader type="TailSpin" color="#0284C7" height={50} width={50} />
     </div>
   )
@@ -215,10 +215,10 @@ class Bookshelves extends Component {
               className="bookshelves-input"
             />
             <button
+              aria-label="Search Books"
               type="button"
               className="bookshelves-search-button"
               onClick={this.onClickSearchButton}
-              testid="searchButton"
             >
               <BsSearch />
             </button>

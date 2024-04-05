@@ -1,4 +1,5 @@
 {
+  "homepage": "https://anshul-167.github.io/Books-Hub",
   "name": "bookhub",
   "private": true,
   "version": "1.0.0",
@@ -35,6 +36,7 @@
     "eslint-config-prettier": "8.1.0",
     "eslint-plugin-import": "2.25.1",
     "eslint-plugin-prettier": "3.3.1",
+    "gh-pages": "6.1.1",
     "husky": "4.3.8",
     "npm-run-all": "4.1.5",
     "prettier": "2.2.1",
@@ -42,14 +44,12 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "format": "prettier --write \"./src\"",
-    "run-all": "npm-run-all --parallel test lint:fix",
-    "lint-staged": {
-      "*.js": "eslint --fix",
-      "*.css": "stylelint --fix"
-    }
+    "run-all": "npm-run-all --parallel test lint:fix"
   },
   "husky": {
     "hooks": {
