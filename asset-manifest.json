@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Books-Hub/static/css/main.32036577.chunk.css",
+    "main.js": "/Books-Hub/static/js/main.ee55a0d8.chunk.js",
+    "main.js.map": "/Books-Hub/static/js/main.ee55a0d8.chunk.js.map",
+    "runtime-main.js": "/Books-Hub/static/js/runtime-main.208f2522.js",
+    "runtime-main.js.map": "/Books-Hub/static/js/runtime-main.208f2522.js.map",
+    "static/css/2.37cfffe1.chunk.css": "/Books-Hub/static/css/2.37cfffe1.chunk.css",
+    "static/js/2.3dc5bd1d.chunk.js": "/Books-Hub/static/js/2.3dc5bd1d.chunk.js",
+    "static/js/2.3dc5bd1d.chunk.js.map": "/Books-Hub/static/js/2.3dc5bd1d.chunk.js.map",
+    "index.html": "/Books-Hub/index.html",
+    "static/css/2.37cfffe1.chunk.css.map": "/Books-Hub/static/css/2.37cfffe1.chunk.css.map",
+    "static/css/main.32036577.chunk.css.map": "/Books-Hub/static/css/main.32036577.chunk.css.map",
+    "static/js/2.3dc5bd1d.chunk.js.LICENSE.txt": "/Books-Hub/static/js/2.3dc5bd1d.chunk.js.LICENSE.txt",
+    "static/media/slick-theme.css": "/Books-Hub/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.208f2522.js",
+    "static/css/2.37cfffe1.chunk.css",
+    "static/js/2.3dc5bd1d.chunk.js",
+    "static/css/main.32036577.chunk.css",
+    "static/js/main.ee55a0d8.chunk.js"
+  ]
+}
